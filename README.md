@@ -32,8 +32,6 @@ $('#fred').imageFallback(['/img/fred.png', '/lib/img/fred.png', '/lib/img/png/fr
 <img id="nicole" src="img/nicole.png" />
 ```
 ```JavaScript
-$('#fred').imageFallback(['/img/fred.png', '/lib/img/fred.png', '/lib/img/png/fred.png', 'images/fred.png', '/images/fred.png']);
-
 var paths = ['/img/', '/lib/img/', '/lib/img/png/', 'images/', '/images/'];
 $('img').each(function(){
 	var self = $(this)
