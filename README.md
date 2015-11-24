@@ -36,7 +36,7 @@ var paths = ['/img/', '/lib/img/', '/lib/img/png/', 'images/', '/images/'];
 $('img').each(function(){
 	var self = $(this)
 	,	file = self.prop('src').split('/').pop()
-	,	srcs = jQuery.map(paths, function(path) {
+	,	srcs = $.map(paths, function(path) {
 		return path + file;
 	});
 	self.imageFallback(srcs);
