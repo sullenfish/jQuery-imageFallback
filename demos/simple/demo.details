@@ -8,6 +8,7 @@ resources:
   - https://rawgit.com/sullenfish/jQuery-imageFallback/master/jQuery-imageFallback.js
 normalize_css: yes
 lang_css: SCSS
+wrap: d
 ...
 */
 
