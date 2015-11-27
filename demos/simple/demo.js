@@ -9,4 +9,4 @@ images.each(function(index, element) {
 
 images.eq(1).imageFallback();
 
-images.eq(2).imageFallback('/img/logo.png');
+images.eq(2).imageFallback(['img/logo.png', '/lib/logo.png', '/img/logo.png']);

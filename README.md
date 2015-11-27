@@ -42,3 +42,7 @@ $('img').each(function(){
 	self.imageFallback(srcs);
 });
 ```
+
+## jsFiddle Demo:
+
+[Comparison on jsFiddle of normal browser behavior, the basic internal fallback placeholder, and falling back to the first available image in an array.](http://jsfiddle.net/gh/get/jquery/1.11.0/sullenfish/jQuery-imageFallback/tree/master/demos/simple/)
