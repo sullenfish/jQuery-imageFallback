@@ -1,0 +1,18 @@
+/*
+---
+name: jQuery.imageFallback - simple demo
+description: jsFiddle demo hosted on GitHub with two jQuery-imageFallback examples: (1) fall back to internal broken image placeholder, (2) fall back to final image in an array of potential sources
+authors:
+  - Frederick J. Ostrander
+normalize_css: yes
+lang_css: SCSS
+...
+*/
+
+<p>
+	jsFiddle demo hosted on GitHub with two jQuery-imageFallback examples:<br/>
+	<ol>
+		<li>fall back to internal broken image placeholder</li>
+		<li>fall back to final image in an array of potential sources</li>
+	</ol>
+</p>

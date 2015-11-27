@@ -1,0 +1,33 @@
+$jsfiddle-blue = #4072B4;
+$base-font-size = 16px;
+@mixin margin($size) {
+	margin: $size * $base-font-size;
+	margin: $size * 1rem;
+}
+@mixin padding($size) {
+	padding: $size * $base-font-size;
+	padding: $size * 1rem;
+}
+@mixin width($size) {
+	width: $size * $base-font-size;
+	width: $size * 1rem;
+}
+html {
+	font-size: $base-font-size;
+}
+body {
+	background-color: $jsfiddle-blue;
+	color: white;
+	font-family: Sans-serif;
+}
+.imageGroup {
+	border: 1px solid white;
+	@include margin(1.5);
+	@include padding(2);
+	@include width(10);
+	div:first-of-type {
+		font-weight: bold;
+		margin-bottom: 2px;
+		text-decoration: underline;
+	}
+}
