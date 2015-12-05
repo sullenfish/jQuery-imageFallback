@@ -6,7 +6,7 @@ authors:
   - Frederick J. Ostrander
 normalize_css: yes
 lang_css: SCSS
-wrap: d
+wrap: h
 ...
 */
 
