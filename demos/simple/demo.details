@@ -4,8 +4,6 @@ name: jQuery.imageFallback - simple demo
 description: two jQuery-imageFallback examples, (1) fall back to internal broken image placeholder, and (2) fall back to final image in an array of potential sources
 authors:
   - Frederick J. Ostrander
-resources:
-  - https://rawgit.com/sullenfish/jQuery-imageFallback/master/jQuery-imageFallback.js
 normalize_css: yes
 lang_css: SCSS
 wrap: d

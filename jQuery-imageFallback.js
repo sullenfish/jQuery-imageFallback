@@ -1,6 +1,6 @@
 (function($) {
-	var defaultSrc = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAD1BMVEX+/v7///+xsbHl5eX////h369FAAAAAnRSTlMAAHaTzTgAAABgSURBVHgB3dNBCkMxCADROuP9z1xSSpBWfsBlZhXIWym+4tBlgFIP8hvIAaSw/2cglSewegB+mgAwFRQzK9ghLBko7ajZD2IAoJp/gBIgCwHdLkRTEJ2BWgN+uu0uDr0B4XUFsa/5KfQAAAAASUVORK5CYII=';
-	var methods = {
+	var defaultSrc = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAD1BMVEX+/v7///+xsbHl5eX////h369FAAAAAnRSTlMAAHaTzTgAAABgSURBVHgB3dNBCkMxCADROuP9z1xSSpBWfsBlZhXIWym+4tBlgFIP8hvIAaSw/2cglSewegB+mgAwFRQzK9ghLBko7ajZD2IAoJp/gBIgCwHdLkRTEJ2BWgN+uu0uDr0B4XUFsa/5KfQAAAAASUVORK5CYII='
+	,	methods = {
 		update: function(src, srcList, alternateSrc) {
 			if (src.length === 0) {
 				this.src = alternateSrc ? alternateSrc : defaultSrc;
