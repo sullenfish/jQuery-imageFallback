@@ -14,6 +14,6 @@ $(document).ready(function () {
 	images.eq(2).imageFallback(['img/logo.png', '/lib/logo.png', '/img/logo.png']);
 
 });
-$.getScript("https://rawgit.com/sullenfish/jQuery-imageFallback/master/jQuery-imageFallback.js", function () {
+$.getScript("https://rawgit.com/sullenfish/jQuery-imageFallback/master/dist/jQuery-imageFallback.min.js", function () {
 	$.holdReady(false);
 });
